@@ -1,0 +1,86 @@
+/* font-family: 'Inter', sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.hidden-header {
+    display: none;
+}
+
+.div-header {
+    background: #5f8bf7;
+    height: 12vh;
+}
+
+.cont-landing, .second-page, .third-page  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont-landing{
+    justify-content: flex-start;
+    background-image: url(images/Fondo1.png);
+    gap: 22%;
+}
+
+.cont-logo-landing {
+    margin-top: 6rem;
+}
+
+.cont-logo-landing > img {
+    height: 12.688rem;
+}
+
+.cont-btn-landing > button, #btn-second-page, #btn-third-page {
+  background-color: transparent;
+  border: none;
+  filter: drop-shadow(1px 1px 1px rgba(173, 173, 173, 0.5));
+}
+
+.cont-hidden-a-page {
+    display: none;
+}
+
+/* >>>>>>>>>>>>>>>> SEGUNDA PANTALLA <<<<<<<<<<<<<<<<<<<<<<<< */
+
+.second-page {
+    background-image: url(images/Fondo2.png);
+    gap: 27%;
+}
+
+.cont-letter {
+    margin-top: 4.375rem;
+}
+
+.cont-letter > h1 {
+    color: #FFF;
+    font-size: 20rem;
+}
+
+.cont-hidden-b-page {
+    display: none;
+}
+
+
+/* >>>>>>>>>>>>>>>> TERCERA PANTALLA <<<<<<<<<<<<<<<<<<<<<<<< */
+
+.third-page{
+    background: #4c3971 ;
+}
+
+.hidden-footer {
+    display: none;
+}
+
+.div-footer {
+    background: #5f8bf7;
+    height: 50vh;
+}
+
+
